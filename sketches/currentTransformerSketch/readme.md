@@ -1,5 +1,5 @@
 The calibration constant for the current transformer in the sketch is explained here:<br>
-https://learn.openenergymonitor.org/electricity-monitoring/ctac/ct-and-ac-power-adaptor-installation-and-calibration-theory?redirected=true
+https://learn.openenergymonitor.org/electricity-monitoring/ctac/ct-and-ac-power-adaptor-installation-and-calibration-theory
 <br><br>
 For a current transformer that gives an output voltage of 1V at a certain max current, the calibration number should be current transformer max current divided by 
 the voltage output at max current.
