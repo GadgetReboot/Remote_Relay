@@ -39,9 +39,11 @@ void loop() {
     if (data == '#') {                 // when # arrives, parse the string for commands
       if (btData == "fog0") {          // command "fog0" means turn off fogger
         controlRelay(0);
+        Serial.print("Fog Off");
       }
       else if (btData == "fog1") {     // command "fog1" means turn on fogger
         controlRelay(1);
+        Serial.print("Fog On");
       }
       btData = "";                     // reset command string when processed and start reading a new command
     }
